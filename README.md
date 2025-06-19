@@ -35,7 +35,8 @@ Thân thiện với người mới bắt đầu, không cần biết lập trìn
 
 3. Phương Pháp Kiểm Thử: Kiểm thử tự động và thủ công trên phần mềm Postman.
 
-4. Kịch Bản Kiểm Thử Lần 1:
+4. Kịch Bản Kiểm Thử :
+
 Tên Kịch Bản: Kiểm thử cơ bản của 1 URL
 
 Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
