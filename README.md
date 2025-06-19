@@ -1,7 +1,11 @@
 🧪 Thực hành Kiểm thử API với Postman
+
 Ngày Kiểm Thử: 19/06/2025
+
 Người Kiểm Thử: Đinh Trường Huy
+
 🚀 Giới thiệu
+
 🧰 GIỚI THIỆU VỀ POSTMAN
 Postman là một công cụ mạnh mẽ được sử dụng rộng rãi trong phát triển và kiểm thử API (Application Programming Interface). Nó cung cấp một giao diện đồ họa trực quan giúp lập trình viên và kiểm thử viên dễ dàng gửi các yêu cầu HTTP và kiểm tra phản hồi từ máy chủ mà không cần viết mã phức tạp.
 
