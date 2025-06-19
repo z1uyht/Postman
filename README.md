@@ -40,11 +40,11 @@ Tên Kịch Bản: Kiểm thử cơ bản của 1 URL
 
 Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
 
-Phương Thức HTTP (GET/POST/PUT/DELETE): GET
+4.1. Phương Thức HTTP (GET/POST/PUT/DELETE): GET
 
-URL: https://www.youtube.com/
+URL: https://jsonplaceholder.typicode.com/
 
-Tham Số: users?size=2&is_xml=true
+Tham Số: posts/1
 
 Kết Quả Mong Đợi: Gửi yêu cầu thành công
 
@@ -53,7 +53,77 @@ Kết Quả Thực Tế: Đã gửi yêu cầu thành công
 Trạng Thái: Thành công
 
 Kết quả sau khi kiểm thử:
-![image](https://github.com/user-attachments/assets/ff5f1bd9-60ff-40c4-a51c-4129cbc0f0c5)
+![image](https://github.com/user-attachments/assets/c9607907-7e3d-4ee9-828e-de5f4f803796)
+
+
 Kết quả kiểm thử chi tiết:
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+
+4.2. Phương Thức HTTP (GET/POST/PUT/DELETE): POST
+
+URL: https://jsonplaceholder.typicode.com/
+
+Tham Số: posts
+Kết Quả Mong Đợi: Gửi yêu cầu thành công
+
+Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+
+Trạng Thái: Thành công
+
+Kết quả sau khi kiểm thử:
+![image](https://github.com/user-attachments/assets/98201830-5d7e-47f7-851e-2987630d31a7)
+
+Kết quả kiểm thử chi tiết:
+{
+    "id": 101
+}
+
+4.3. Phương Thức HTTP (GET/POST/PUT/DELETE): PUT
+
+URL: https://jsonplaceholder.typicode.com/
+
+Tham Số: posts
+Kết Quả Mong Đợi: Gửi yêu cầu thành công
+
+Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+
+Trạng Thái: Thành công
+
+Kết quả sau khi kiểm thử:
+![image](https://github.com/user-attachments/assets/aff67bbf-db5a-4731-a5fd-2aaccf9476a3)
+
+
+Kết quả kiểm thử chi tiết:
+{}
+
+4.4. Phương Thức HTTP (GET/POST/PUT/DELETE): DELETE 
+
+URL: https://jsonplaceholder.typicode.com/
+
+Tham Số: posts/1
+Kết Quả Mong Đợi: Gửi yêu cầu thành công
+
+Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+
+Trạng Thái: Thành công
+
+Kết quả sau khi kiểm thử:
+![image](https://github.com/user-attachments/assets/07f796e5-baf9-4c4d-bffb-115f10658583)
+
+
+
+Kết quả kiểm thử chi tiết:
+{}
+
+
+
+
+
 
 
